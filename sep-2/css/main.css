@@ -1,0 +1,112 @@
+.head{
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.h{
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    display: contents;
+    /* padding: 20px;
+    margin: 0 auto; */
+}
+.title h1 {
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(49, 40, 58);
+
+}
+.title p {
+    text-align: center;
+    width: 98%;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(49, 40, 58);
+
+}
+.flexbox{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.text h3{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(49, 40, 58);
+}
+.text h4, p{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(49, 40, 58);
+    
+}
+.hr{
+    width: 10%;
+
+}
+.flexbox1{
+    width: 50%;
+   height: 230px;
+    /* margin-left: 20px; */
+    
+    /* outline: 1px solid red; */
+    display: flex;
+    box-shadow: 1px 2px 2px 2px rgb(220, 226, 235);
+}
+.image{
+    width: 40%;
+    height: auto;
+    
+}
+.image img{
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* outline: 1px solid red; */
+    border-radius: 50%;
+    
+    
+}
+.profile{
+    width: 70%;
+    height: auto;
+}
+.icon1{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: rgb(204, 226, 226);
+    display: inline-block;
+}
+.icon1 i{
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    margin:0 6px ;
+    line-height: 30px;
+    text-decoration: none;
+}
+.icon1:hover{
+    background-color: rgb(133, 133, 238);
+}
+@media (max-width :600px) {
+.flexbox1{
+    width: 100%;
+    height: 230px;
+}
+    
+}
